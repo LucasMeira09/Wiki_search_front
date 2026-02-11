@@ -2,7 +2,7 @@
 
 Un mini moteur de recherche pour Wikipedia avec une interface moderne construite en React + TypeScript.
 
-## 🚀 Technologies
+##  Technologies
 
 - **React 18** - Bibliothèque d’interface
 - **TypeScript** - Typage statique
@@ -10,12 +10,12 @@ Un mini moteur de recherche pour Wikipedia avec une interface moderne construite
 - **Tailwind CSS** - Framework CSS
 - **PostCSS** - Traitement CSS
 
-## 📋 Pré-requis
+##  Pré-requis
 
 - **Node.js** 18+ 
 - **npm** ou **yarn**
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clonez le dépôt :**
 ```bash
