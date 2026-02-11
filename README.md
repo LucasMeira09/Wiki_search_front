@@ -1,83 +1,80 @@
 # WikiSearch Frontend
 
-Um mini motor de busca para Wikipedia com interface moderna construída em React + TypeScript.
+Un mini moteur de recherche pour Wikipedia avec une interface moderne construite en React + TypeScript.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-- **React 18** - Biblioteca de interface
-- **TypeScript** - Tipagem estática
-- **Vite** - Build tool e dev server
-- **Tailwind CSS** - Framework de CSS
-- **PostCSS** - Processamento de CSS
+- **React 18** - Bibliothèque d’interface
+- **TypeScript** - Typage statique
+- **Vite** - Outil de build et serveur de développement
+- **Tailwind CSS** - Framework CSS
+- **PostCSS** - Traitement CSS
 
-## 📋 Pré-requisitos
+## 📋 Pré-requis
 
 - **Node.js** 18+ 
 - **npm** ou **yarn**
 
-## 🛠️ Instalação
+## 🛠️ Installation
 
-1. **Clone o repositório:**
+1. **Clonez le dépôt :**
 ```bash
 git clone https://github.com/SEU_USUARIO/wiksearch-frontend.git
 cd wiksearch-frontend
 ```
 
-2. **Instale as dependências:**
-```bash
+## Installez les dépendances :
+```
 npm install
 ```
 
-3. **Configure as variáveis de ambiente:**
-```bash
+## Configurez les variables d’environnement :
+```
 cp .env.example .env
 ```
-Edite o `.env` com a URL da sua API:
+
+## Modifiez le .env avec l’URL de votre API :
 ```
 VITE_API_URL=http://localhost:3000
 ```
 
-4. **Inicie o servidor de desenvolvimento:**
-```bash
+## Démarrez le serveur de développement :
+```
 npm run dev
 ```
 
-5. **Abra no navegador:**
+## Ouvrez dans le navigateur :
 ```
 http://localhost:5173
 ```
 
-## 📦 Scripts Disponíveis
+# Scripts Disponibles
+```
+npm run dev - Démarre le serveur de développement
 
-- `npm run dev` - Inicia servidor de desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Visualiza build de produção
+npm run build - Génère le build de production
 
-## 🔧 Build de Produção
+npm run preview - Visualise le build de production
+```
 
-```bash
+## Build de Production
 npm run build
+Les fichiers optimisés seront générés dans le dossier dist/.
 ```
-
-Os arquivos otimizados serão gerados na pasta `dist/`.
-
-## 📁 Estrutura do Projeto
-
-```
+ Structure du Projet
 src/
-  ├── App.tsx          # Componente principal
-  ├── main.tsx         # Ponto de entrada
-  └── index.css        # Estilos globais
-public/              # Arquivos estáticos
+  ├── App.tsx          # Composant principal
+  ├── main.tsx         # Point d’entrée
+  └── index.css        # Styles globaux
+public/              # Fichiers statiques
+ Fonctionnalités
+ Recherche en temps réel sur Wikipedia
 ```
 
-## 🌟 Funcionalidades
+ - Résumé automatique des résultats
 
-- ✅ Busca em tempo real na Wikipedia
-- ✅ Resumo automático dos resultados  
-- ✅ Interface responsiva e moderna
-- ✅ Links diretos para artigos da Wikipedia
+ - Interface responsive et moderne
 
----
+ - Liens directs vers les articles de Wikipedia
 
-**Desenvolvido por:** [@PolyannaMeira](https://github.com/PolyannaMeira)
+Développé par : @PolyannaMeira
